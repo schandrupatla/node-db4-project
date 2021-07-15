@@ -50,6 +50,8 @@ exports.down = async function(knex) {
     .dropTableIfExists('ingredients')
     .dropTableIfExists('recipes')
 };
+
+
 //query
 // select r.*,s.* , i.ingredient_name, si.ingredient_quantity
 // from  recipes as r
