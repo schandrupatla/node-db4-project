@@ -1,5 +1,4 @@
 const express = require('express')
-//const { checkSchemeId, validateScheme, validateStep } = require('./scheme-middleware')
 const dbAccess = require('./model')
 
 const router = express.Router()
